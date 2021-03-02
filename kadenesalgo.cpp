@@ -22,7 +22,7 @@ int main()
     //kadenes algo
 
     int cs = 0, ms = 0;
-    for (int i = 0; i <= n - 1; i++)
+    for (int i = 0; i < n; i++)
     {
         cs = cs + arr[i];
         if (cs < 0)
